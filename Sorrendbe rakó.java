@@ -17,7 +17,7 @@ public class Main {
 		int max_value = Integer.parseInt(scanner.nextLine())+1;
 		int ennyi_van = 1;
 		while (ennyi_van<random_menny) {
-			int random_number = random.nextInt(max_value);
+			int random_number = random.nextInt(max_value-1);
 			//System.out.println(random_number);
 			if(numbers.contains(random_number)) {
 			}
